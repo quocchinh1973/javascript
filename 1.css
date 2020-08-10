@@ -1,0 +1,7 @@
+.style{
+    text-align: center;
+    background-image:linear-gradient(to right, #ffb347, #ffcc33);
+    color:white;
+    padding:1rem;
+    box-shadow: 5px 5px 5px black
+}

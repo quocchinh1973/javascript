@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event</title>
+  <style>
+    h1{
+      transition: 2s;
+    }
+    .move{
+      transform:translateX(100px)
+  </style>
+</head>
+<body>
+     <h1 id="txt1">Chạy xa anh</h1>
+     <button id="nut1">Click me</button>
+<script>
+      document.addEventListener("DOMContentLoaded",function(){
+          var nut = document.getElementById('nut1');
+          var txt = document.getElementById('txt1');
+          nut.onclick = function(){
+              txt.classList.toggle('move');
+      }
+},false)
+</script>
+</body>
+</html>
+</html>
